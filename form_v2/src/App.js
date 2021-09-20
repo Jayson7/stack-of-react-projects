@@ -2,7 +2,7 @@
 import "./App.css";
 // import React from "react";
 import { Form, Button } from "react-bootstrap";
-import React, { Component } from "react";
+import React from "react";
 
 class App extends React.Component {
   constructor(props) {

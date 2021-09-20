@@ -5,3 +5,7 @@
     height: 100vh;
     background-color: aquamarine;
 }
+
+.alert {
+    margin: 0;
+}
