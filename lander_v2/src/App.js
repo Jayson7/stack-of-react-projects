@@ -1,4 +1,5 @@
 import "./App.css";
+import { Button } from "react-bootstrap";
 
 function App() {
   return (
@@ -14,8 +15,13 @@ function App() {
           ullam!Exercitationem laborum voluptate dignissimos officiis vero cum
           amet quam iusto molestias officia.
         </p>
-        <div className="buttons">
-          <button> Explore </button> <button>View More</button>
+        <div className="d-flex align-items-center justify-content-center">
+          <Button variant="secondary" className="m-2">
+            Explore
+          </Button>
+          <Button variant="secondary" className="m-2">
+            View More
+          </Button>
         </div>
       </div>
     </div>
